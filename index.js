@@ -8,6 +8,7 @@ const JOB_LISTINGS_URL =
 const POSTING_CLICK_DELAY = Math.floor(Math.random() * 600) + 700;
 const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
 
+// Main function
 (async () => {
   const browser = await puppeteer.launch({
     headless: false,
@@ -49,6 +50,7 @@ const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
   });
 })();
 
+// Grabs the unique posting ID of each job listing
 function grabPostingsIDs() {
   return [...document.querySelector(".jobsearch-ResultsList.css-0").children]
     .map(
@@ -60,11 +62,13 @@ function grabPostingsIDs() {
     .filter((jobID) => jobID !== undefined);
 }
 
+// Scrolls all the way down to the bottom of the page
 function scrollToBottom() {
   const scrollDistance = document.querySelector(".jobsearch-LeftPane");
   window.scrollBy({ top: scrollDistance, behavior: "smooth" });
 }
 
+// Filters a given string to exclude senior roles
 function titleFilter(title) {
   // Includes
   const test1 = /front|ui|web developer/i.test(title);
@@ -77,6 +81,7 @@ function titleFilter(title) {
   return [test1, test2].every((test) => test === true);
 }
 
+// Main scraping function that scrapes each posting for data
 async function scrapePostings(browser, page) {
   const validPostings = [];
   const postingDescriptions = [];
@@ -96,10 +101,8 @@ async function scrapePostings(browser, page) {
 
       for (let jobID of postingsArray) {
         const jobTitle = await page.evaluate((id) => {
-          return (
-            document.querySelector(`.${id} H2`).innerText
-          )
-        })
+          return document.querySelector(`.${id} H2`).innerText;
+        });
 
         // If it fails the job title checker (Senior role)
         if (!titleFilter(jobTitle)) {
@@ -107,7 +110,14 @@ async function scrapePostings(browser, page) {
           continue;
         }
 
-        
+        await Promise.all([
+          page.click(".job_36ac8b31f605d700"),
+          page.waitForSelector("#jobsearch-ViewjobPaneWrapper", {
+            visible: true,
+          }),
+        ]);
+
+        await page.waitForTimeout(POSTING_CLICK_DELAY);
       }
 
       // Jump to the next page
