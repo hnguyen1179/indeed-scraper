@@ -5,7 +5,7 @@ const puppeteer = require("puppeteer");
 const JOB_LISTINGS_URL =
   "https://www.indeed.com/jobs?q=frontend+engineer&l=New+York%2C+NY&from=searchOnHP&vjk=3471e5d39897e1d9";
 
-const POSTING_CLICK_DELAY = Math.floor(Math.random() * 600) + 700;
+const POSTING_CLICK_DELAY = Math.floor(Math.random() * 900) + 700;
 const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
 
 // Main function
@@ -35,12 +35,11 @@ const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
       company,
       title,
       location,
-      datePosted,
       url,
       connections,
     } = post;
 
-    return `${experienceMet}\t${experienceRequired}\t${company}\t${title}\t${location}\t${datePosted}\t${url}\t${connections}`;
+    return `${experienceMet}\t${experienceRequired}\t${company}\t${title}\t${location}\t${url}\t${connections}`;
   });
 
   // Print Results
@@ -75,34 +74,17 @@ function experienceFilter(description) {
 
 // Extracts all the relevant information from a job posting
 async function textExtractor() {
-  function dateConverter(string) {
-    if (/today/.test(string)) {
-      return new Date().toLocaleDateString();
-    } else if (/day/.test(string)) {
-      const [daysAgo] = string.match(/\d+/);
-      const dt = new Date();
-      dt.setDate(dt.getDate() - parseInt(daysAgo));
-      return dt.toLocaleDateString();
-    }
-  }
-
+  console.log("In textExtractor");
   let company = document.querySelector(".css-1saizt3.e1wnkr790");
   if (company) company = company.innerText.trim();
 
   let location = document.querySelector(".css-6z8o9s.eu4oa1w0");
   if (location) location = location.innerText.trim();
 
-  const sincePosted = document
-    .querySelector(".css-5vsc1i.eu4oa1w0")
-    .innerText.trim();
-
-  const datePosted = dateConverter(sincePosted);
-
-  const title = document
-    .querySelector(
-      ".icl-u-xs-mb--xs.icl-u-xs-mt--none.jobsearch-JobInfoHeader-title.is-embedded span"
-    )
-    .innerText.split("\n-")[0];
+  let title = document.querySelector(
+    ".icl-u-xs-mb--xs.icl-u-xs-mt--none.jobsearch-JobInfoHeader-title.is-embedded span"
+  );
+  if (title) title = title.innerText.split("\n-")[0];
 
   const url = document.querySelector(".jobTitle > a").href;
 
@@ -110,11 +92,12 @@ async function textExtractor() {
     .querySelector("#jobDescriptionText")
     .innerText.replace(new RegExp(/\n+/g), " ");
 
-  return [company, location, datePosted, title, url, description];
+  return [company, location, title, url, description];
 }
 
 // Grabs the unique posting ID of each job listing
 function grabPostingsIDs() {
+  console.log("In grabPostingsIDs");
   return [...document.querySelector(".jobsearch-ResultsList.css-0").children]
     .map(
       (li) =>
@@ -133,6 +116,7 @@ function scrollToBottom() {
 
 // Filters a given string to exclude senior roles
 function titleFilter(title) {
+  console.log("In titleFilter");
   // Includes
   const test1 = /front|ui|web developer/i.test(title);
   // Doesn't Include
@@ -146,8 +130,8 @@ function titleFilter(title) {
 
 // Main scraping function that scrapes each posting for data
 async function scrapePostings(browser, page, textExtractor) {
+  console.log("In scrapePostings");
   const validPostings = [];
-  const postingDescriptions = [];
 
   try {
     let isNextPageAvailable = await page.evaluate(() => {
@@ -155,6 +139,7 @@ async function scrapePostings(browser, page, textExtractor) {
     });
 
     while (isNextPageAvailable) {
+      console.log("In while loop");
       const postingsArray = await page.evaluate(grabPostingsIDs);
 
       await page.evaluate(scrollToBottom);
@@ -165,7 +150,9 @@ async function scrapePostings(browser, page, textExtractor) {
       for (let jobID of postingsArray) {
         const jobTitle = await page.evaluate((id) => {
           return document.querySelector(`.${id} H2`).innerText;
-        });
+        }, jobID);
+
+        console.log("Looking at: ", jobTitle + ": " + jobID);
 
         // If it fails the job title checker (Senior role)
         if (!titleFilter(jobTitle)) {
@@ -174,7 +161,7 @@ async function scrapePostings(browser, page, textExtractor) {
         }
 
         await Promise.all([
-          page.click(".job_36ac8b31f605d700"),
+          page.click(`.${jobID} H2`),
           page.waitForSelector("#jobsearch-ViewjobPaneWrapper", {
             visible: true,
           }),
@@ -182,7 +169,7 @@ async function scrapePostings(browser, page, textExtractor) {
 
         await page.waitForTimeout(POSTING_CLICK_DELAY);
 
-        const [company, location, datePosted, title, url, description] =
+        const [company, location, title, url, description] =
           await page.evaluate(textExtractor);
 
         validPostings.push({
@@ -191,13 +178,13 @@ async function scrapePostings(browser, page, textExtractor) {
           company,
           title,
           location,
-          datePosted,
           url,
-          connections: availableAlumni ? "yes" : "no",
         });
+
+        await page.waitForTimeout(POSTING_CLICK_DELAY);
       }
 
-      // Jump to the next page
+      // Click to the next page
       await Promise.all([
         page.click("a[data-testid='pagination-page-next']"),
         page.waitForNavigation(),
