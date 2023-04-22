@@ -29,17 +29,10 @@ const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
   console.log("validPostings: ", validPostings);
 
   const formattedPostings = validPostings.map((post) => {
-    const {
-      experienceMet,
-      experienceRequired,
-      company,
-      title,
-      location,
-      url,
-      connections,
-    } = post;
+    const { experienceMet, experienceRequired, company, title, location, url } =
+      post;
 
-    return `${experienceMet}\t${experienceRequired}\t${company}\t${title}\t${location}\t${url}\t${connections}`;
+    return `${experienceMet}\t${experienceRequired}\t${company}\t${title}\t${location}\t${url}`;
   });
 
   // Print Results
@@ -118,10 +111,10 @@ function scrollToBottom() {
 function titleFilter(title = "") {
   console.log("In titleFilter");
   // Includes
-  const test1 = /front|ui|web developer/i.test(title);
+  const test1 = /front|ui|web|software/i.test(title);
   // Doesn't Include
   const test2 =
-    !/senior|founding|staff|sr|lead|mid|angular|vue|iii|years|java[^s]|full/i.test(
+    !/senior|founding|head|staff|sr|lead|mid|angular|vue|iii|years|java[^s]|full/i.test(
       title
     );
 
@@ -157,6 +150,7 @@ async function scrapePostings(browser, page, textExtractor) {
         // If it fails the job title checker (Senior role)
         if (!titleFilter(jobTitle)) {
           // Jump to the next iteration
+          console.log("Skipping iteration");
           continue;
         }
 
