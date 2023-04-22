@@ -79,7 +79,7 @@ async function textExtractor() {
   );
   if (title) title = title.innerText.split("\n-")[0];
 
-  const url = document.querySelector(".jobTitle > a").href;
+  const url = document.querySelector(`.vjs-highlight .jobTitle > a`).href;
 
   const description = document
     .querySelector("#jobDescriptionText")
