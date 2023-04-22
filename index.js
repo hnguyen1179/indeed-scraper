@@ -24,7 +24,7 @@ const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
 
   // Scrape
   console.log("Initate scraping");
-  const [validPostings] = await scrapePostings(browser, page);
+  const [validPostings] = await scrapePostings(browser, page, textExtractor);
 
   console.log("validPostings: ", validPostings);
 
@@ -50,6 +50,48 @@ const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
   });
 })();
 
+// Extracts all the relevant information from a job posting
+async function textExtractor() {
+  function dateConverter(string) {
+    if (/today/.test(string)) {
+      return new Date().toLocaleDateString();
+    } else if (/day/.test(string)) {
+      const [daysAgo] = string.match(/\d+/);
+      const dt = new Date();
+      dt.setDate(dt.getDate() - parseInt(daysAgo));
+      return dt.toLocaleDateString();
+    }
+  }
+
+  let company = document.querySelector(".css-1saizt3.e1wnkr790");
+  if (company) company = company.innerText.trim();
+
+  let location = document.querySelector(".css-6z8o9s.eu4oa1w0");
+  if (location) location = location.innerText.trim();
+
+  const sincePosted = document
+    .querySelector(".jobs-unified-top-card__posted-date")
+    .innerText.trim();
+
+  const datePosted = dateConverter(sincePosted);
+
+  const title = document
+    .querySelector(".t-24.t-bold.jobs-unified-top-card__job-title")
+    .innerText.trim();
+
+  const url =
+    "https://www.linkedin.com" +
+    document
+      .querySelector(".jobs-unified-top-card__content--two-pane > a")
+      .getAttribute("href");
+
+  const description = document
+    .querySelector(".jobs-box__html-content.jobs-description-content__text")
+    .innerText.replace(new RegExp(/\n+/g), " ");
+
+  return [company, location, datePosted, title, url, description];
+}
+
 // Grabs the unique posting ID of each job listing
 function grabPostingsIDs() {
   return [...document.querySelector(".jobsearch-ResultsList.css-0").children]
@@ -74,7 +116,7 @@ function titleFilter(title) {
   const test1 = /front|ui|web developer/i.test(title);
   // Doesn't Include
   const test2 =
-    !/senior|founding|staff|sr|lead|mid|angular|vue|ii|iii|years|java[^s]|full/i.test(
+    !/senior|founding|staff|sr|lead|mid|angular|vue|iii|years|java[^s]|full/i.test(
       title
     );
 
@@ -82,7 +124,7 @@ function titleFilter(title) {
 }
 
 // Main scraping function that scrapes each posting for data
-async function scrapePostings(browser, page) {
+async function scrapePostings(browser, page, textExtractor) {
   const validPostings = [];
   const postingDescriptions = [];
 
@@ -118,6 +160,9 @@ async function scrapePostings(browser, page) {
         ]);
 
         await page.waitForTimeout(POSTING_CLICK_DELAY);
+
+        const [company, location, datePosted, title, url, description] =
+          await page.evaluate(textExtractor);
       }
 
       // Jump to the next page
