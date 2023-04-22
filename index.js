@@ -5,7 +5,7 @@ const puppeteer = require("puppeteer");
 const JOB_LISTINGS_URL =
   "https://www.indeed.com/jobs?q=frontend+engineer&l=New+York%2C+NY&from=searchOnHP&vjk=3471e5d39897e1d9";
 
-const POSTING_CLICK_DELAY = Math.floor(Math.random() * 900) + 700;
+const POSTING_CLICK_DELAY = Math.floor(Math.random() * 700) + 700;
 const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
 
 // Main function
@@ -115,7 +115,7 @@ function scrollToBottom() {
 }
 
 // Filters a given string to exclude senior roles
-function titleFilter(title) {
+function titleFilter(title = "") {
   console.log("In titleFilter");
   // Includes
   const test1 = /front|ui|web developer/i.test(title);
@@ -201,4 +201,6 @@ async function scrapePostings(browser, page, textExtractor) {
   } catch (e) {
     console.log(e);
   }
+
+  return [validPostings];
 }
