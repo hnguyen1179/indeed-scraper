@@ -50,6 +50,29 @@ const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
   });
 })();
 
+// Filters job postings to exclude invalid job postings. Checks for years of experience required
+function experienceFilter(description) {
+  const pattern = new RegExp(
+    /\d+\+ years|\d+ years|[1-9] to [1-9] years|[1-9]-[1-9] years|[1-9]-[1-9] \+ years|[1-9] \+ years|years of experience|yrs of experience/i
+  );
+  const yearsPattern = new RegExp(
+    /(\d+)\+ years|(\d+) years|([1-9]) to [1-9] years|([1-9])-[1-9] years|([1-9])-[1-9] \+ years|([1-9]) \+ years|(\d+).+years/i
+  );
+
+  const metMinimum = !pattern.test(description);
+  let minimumYears = 0;
+
+  if (!metMinimum && description.match(yearsPattern) !== null) {
+    const [yearsMin] = [...description.match(yearsPattern)].filter(
+      (match) => match && match.length == 1
+    );
+
+    minimumYears = parseInt(yearsMin);
+  }
+
+  return [metMinimum, minimumYears];
+}
+
 // Extracts all the relevant information from a job posting
 async function textExtractor() {
   function dateConverter(string) {
@@ -70,23 +93,21 @@ async function textExtractor() {
   if (location) location = location.innerText.trim();
 
   const sincePosted = document
-    .querySelector(".jobs-unified-top-card__posted-date")
+    .querySelector(".css-5vsc1i.eu4oa1w0")
     .innerText.trim();
 
   const datePosted = dateConverter(sincePosted);
 
   const title = document
-    .querySelector(".t-24.t-bold.jobs-unified-top-card__job-title")
-    .innerText.trim();
+    .querySelector(
+      ".icl-u-xs-mb--xs.icl-u-xs-mt--none.jobsearch-JobInfoHeader-title.is-embedded span"
+    )
+    .innerText.split("\n-")[0];
 
-  const url =
-    "https://www.linkedin.com" +
-    document
-      .querySelector(".jobs-unified-top-card__content--two-pane > a")
-      .getAttribute("href");
+  const url = document.querySelector(".jobTitle > a").href;
 
   const description = document
-    .querySelector(".jobs-box__html-content.jobs-description-content__text")
+    .querySelector("#jobDescriptionText")
     .innerText.replace(new RegExp(/\n+/g), " ");
 
   return [company, location, datePosted, title, url, description];
@@ -163,6 +184,17 @@ async function scrapePostings(browser, page, textExtractor) {
 
         const [company, location, datePosted, title, url, description] =
           await page.evaluate(textExtractor);
+
+        validPostings.push({
+          experienceMet: experienceFilter(description)[0] ? "yes" : "no",
+          experienceRequired: experienceFilter(description)[1],
+          company,
+          title,
+          location,
+          datePosted,
+          url,
+          connections: availableAlumni ? "yes" : "no",
+        });
       }
 
       // Jump to the next page
