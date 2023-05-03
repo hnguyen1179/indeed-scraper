@@ -7,6 +7,9 @@ const JOB_LISTINGS_URLS = {
   SF: "https://www.indeed.com/jobs?q=frontend+engineer&l=San+Francisco%2C+CA&sc=0kf%3Aocc%28ZW3TH%29%3B&vjk=fc07799ad2f0b6f5",
 };
 
+// Change this to change locations
+const currentURL = JOB_LISTINGS_URLS.NYC
+
 const POSTING_CLICK_DELAY = Math.floor(Math.random() * 1500) + 700;
 const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
 
@@ -21,7 +24,7 @@ const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
 
   await Promise.all([
     page.setViewport({ width: 1440, height: 1000 }),
-    page.goto(JOB_LISTINGS_URLS.NYC),
+    page.goto(currentURL),
   ]);
 
   // Scrape
