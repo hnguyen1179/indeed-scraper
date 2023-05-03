@@ -1,94 +1,51 @@
-no	NaN	Ramp Financial	Software Engineer | Frontend	New York, NY•Remote	https://www.indeed.com/rc/clk?jk=782cff892f7bea3d&fccid=c5dda297fd1bfdb9&vjs=3
-no	1	Climb Credit	Software Engineer (Remote)	New York, NY 10013•Remote	https://www.indeed.com/rc/clk?jk=99842d8ad3075a94&fccid=6763e73ddc29bffc&vjs=3
-yes	0	null	Frontend engineer	New York, NY 10272	https://www.indeed.com/rc/clk?jk=7b47eb49bd004049&fccid=dd616958bd9ddc12&vjs=3
-no	NaN	EZRecruit	Software Engineer (100% Remote)	New York, NY•Remote	https://www.indeed.com/company/EZRecruit.co/jobs/Software-Engineer-aba341b7c7c180b4?fccid=4bee3094e1f2f602&vjs=3
-no	NaN	Tetra	Frontend Engineer	New York, NY 10121•Remote	https://www.indeed.com/rc/clk?jk=43c0e119180b3e61&fccid=86fe39f623b5c805&vjs=3
-no	3	null	Frontend Engineer	New York, NY	https://www.indeed.com/rc/clk?jk=fd8b01b112f044e3&fccid=dd616958bd9ddc12&vjs=3
-no	3	Aptos	Front End Engineer	New York, NY•Remote	https://www.indeed.com/rc/clk?jk=608affb269d5bddd&fccid=4edf6f7283dd42ad&vjs=3
-yes	0	Cookin	Software Engineer (Backend)	New York, NY•Remote	https://www.indeed.com/rc/clk?jk=fde12e1b37fd9c40&fccid=975872496d1b8518&vjs=3
-yes	0	FDM Group	New York Metro - Junior Software Development Consultant	New York, NY 10005	https://www.indeed.com/rc/clk?jk=183d53aa308f5c4a&fccid=2525ee368b671cd8&vjs=3
-yes	0	null	Software Engineer, Web - Growth Squad	New York, NY•Remote	https://www.indeed.com/rc/clk?jk=900a4d5007c1b4eb&fccid=dd616958bd9ddc12&vjs=3
-yes	0	Decisionary Media	Web Engineer	New York, NY•Remote	https://www.indeed.com/rc/clk?jk=42311ac69f6c2d02&fccid=acb47f6691b48064&vjs=3
-no	4	4C Insights	Software Development Engineer (Frontend)	New York, NY 10010•Remote	https://www.indeed.com/rc/clk?jk=3d5021371fa2461b&fccid=7f8f32670248a0ed&vjs=3
-no	0	Citi	UI Engineer - Officer - NY/NJ - Hybrid (HM)	Rutherford, NJ 07070	https://www.indeed.com/rc/clk?jk=21a187882dd84ed7&fccid=5bcd1ef0a7f4fb99&vjs=3
-no	3	Moody's	Front End Software Engineer - 100% US-Remote	New York, NY 10007•Remote	https://www.indeed.com/rc/clk?jk=7a3bc9e2485ec91d&fccid=28eefc5b86560831&vjs=3
-no	NaN	Intuit	Software Engineer II, Unified Customer Profile (Mailchimp)	Brooklyn, NY 11238•Hybrid remote	https://www.indeed.com/rc/clk?jk=bb22e8833dd548f4&fccid=9784ae78e9834539&vjs=3
-no	NaN	AptDeco	Front-End Engineer (React and Javascript)	New York, NY 10001•Remote	https://www.indeed.com/rc/clk?jk=d9ad93a2da3865cb&fccid=bb32670acac61088&vjs=3
-no	NaN	Madhive	Research Engineer (Frontend)	New York, NY•Remote	https://www.indeed.com/rc/clk?jk=590e5704249e4be8&fccid=657f038f280d6d76&vjs=3
-yes	0	Etsy	Software Engineer II, Web Build Infrastructure	Brooklyn, NY 11201	https://www.indeed.com/rc/clk?jk=7219d068f4d096c9&fccid=9ecb91618c39a24f&vjs=3
-yes	0	Riskcare	UI Software Engineer	New York, NY 10018	https://www.indeed.com/rc/clk?jk=f646801f06442d7e&fccid=5ba36cddd4c8beb4&vjs=3
-no	NaN	Recruiting From Scratch	Frontend Engineer	New York, NY 10002	https://www.indeed.com/rc/clk?jk=afdfd3025486b177&fccid=09e02654c2f26bbd&vjs=3
-yes	0	My Aidin	Software Engineer	New York, NY	https://www.indeed.com/rc/clk?jk=5d1b98e8a2f65e38&fccid=4fa9bfbdec77fd37&vjs=3
-no	7	Meta	Software Engineer - Infrastructure	New York, NY	https://www.indeed.com/rc/clk?jk=39db78ba1a4cbc7f&fccid=ba07516c418dda52&vjs=3
-no	2	TomCloud	Software Developer (Front-End/Web)	New York, NY	https://www.indeed.com/company/TomCloud/jobs/Front-End-Developer-36ac8b31f605d700?fccid=b927f635cc292e2e&vjs=3
-yes	0	Ernesta	Software Engineer, Web	New York, NY 10032	https://www.indeed.com/rc/clk?jk=15b8cc08a4756786&fccid=8742d023200e2c59&vjs=3
-no	5	Casebook	Frontend Engineer Level II	New York, NY 10001	https://www.indeed.com/rc/clk?jk=1bfe3107d2a48a0f&fccid=148dde0583e4e20c&vjs=3
-yes	0	Dataiku	Software Engineer - EMEA	New York, NY•Remote	https://www.indeed.com/rc/clk?jk=c2c48b308d07ac2c&fccid=4640437a3109c91f&vjs=3
-yes	0	Canonical - Jobs	Software Engineer - App Stores Backend (Remote)	New York, NY•Remote	https://www.indeed.com/rc/clk?jk=2df711efc9a872a9&fccid=3911cf63fc0692f4&vjs=3
-yes	0	Upsolve	Software Engineer	Brooklyn, NY 11201	https://www.indeed.com/rc/clk?jk=532794d6e17fd007&fccid=01662ededbadaf62&vjs=3
-yes	0	Sense & Respond	React – Front End Developer	New York, NY	https://www.indeed.com/rc/clk?jk=63c0a70a5ff28527&fccid=b50d3a542ffe7a58&vjs=3
-yes	0	NYC Careers	Geospatial Software Engineer	New York, NY 10013	https://www.indeed.com/rc/clk?jk=4de68873b16d06ff&fccid=7d7b563c6a3a9653&vjs=3
-no	5	Endeavor Operating Company, LLC	Mobile Software Engineer	New York, NY•Remote	https://www.indeed.com/rc/clk?jk=b766cddf9c935ac4&fccid=58432e03a7f9aaeb&vjs=3
-no	2	Style Group	Software Developer - Web/UI	New York, NY	https://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0AoilK__O7KFieKRQ86ouX6k6w_91GsBYiYasFNf3CTQPG3OnVnyGlejGR64k80cjKQlFpJ-Szxxf9d0VjsFIKJiHVp5B9evZzHMa7tW7OY0E7Pl6Oy-O-aILg0C4rveS7H2-c3jdbYIE6Jm6gV5NPcddKE9mjX5ZqIzgWuG1VBVOxjA6iHijm0Bo8FGo6x6jrTpCvQbEuPkclJN4ZQF5Q4VRwr8dyepURJQ9V7gVj16jYEJUVCEvjS3ukfuOhCHhi-45wBRyKxhZMeSTdoL7ANky0szvN5xNqwElSFklVkp61CNylGS8VCoqXMCjRENSchZRuzgNurIYg016InyLJ-_JO8oT1iH9Iojx1b07bxMgTq0RAnrPz9esfpm1dcOiBJHGrVBF1t8sdnw1BWfs3rRfx5IWV3nySq3Og81OjQAO_4MgFe2BsbGyT5TecTc1s2eJep13xkHdoSpK6Ea0m-8MTsa_WdhG1wKmz9-TbC4tZAjbrA1TZLRcFBkA-FzhjZtV3j1C2ONO2xoPU0OxELiK2F52sP0DljPLCHygdKRw==&xkcb=SoD8-_M3QTVexxWk1B0LbzkdCdPP&p=0&fvj=1&vjs=3&tk=1gujek8ohi430801&jsa=4993&oc=1&sal=1
-no	NaN	PIMCO	Front End Developer	New York, NY	https://www.indeed.com/rc/clk?jk=0c442886f138af58&fccid=2d949908fcb6b985&vjs=3
-no	NaN	TaxBit	Software Engineer	New York, NY	https://www.indeed.com/rc/clk?jk=7a0fda7ed59b6361&fccid=8890926f992b8d19&vjs=3
-no	5	Fullbeauty Brands	UI ENGINEER	New York, NY 10004	https://www.indeed.com/rc/clk?jk=24b3ffa9778ffbc8&fccid=ca2464127e555b6d&vjs=3
-no	2	Presidio	Front End Engineer	New York, NY	https://www.indeed.com/company/Presidio/jobs/Front-End-Developer-cad40a52b07b097b?fccid=6980f95d3cb6df18&vjs=3
-yes	0	Perpetual	Front-End Software Engineer	New York, NY 10001	https://www.indeed.com/rc/clk?jk=9c44f59b2b025898&fccid=475929d8de269875&vjs=3
-no	NaN	Mindful Care	Software Engineer - Frontend	West Hempstead, NY 11552	https://www.indeed.com/rc/clk?jk=8bcde90d63165379&fccid=3f64d426595c6cd5&vjs=3
-yes	0	Shift4 Payments	Software Engineer I	Weehawken, NJ 07086	https://www.indeed.com/rc/clk?jk=1061c65a152566e1&fccid=2b9b6e64f8a58c92&vjs=3
-no	4	Guidepoint	Software Engineer (PHP)	New York, NY 10017•Remote	https://www.indeed.com/rc/clk?jk=65858b20de42078d&fccid=3ec60d46cb3714f9&vjs=3
-no	5	Schmidt Futures	Software Engineer	New York, NY	https://www.indeed.com/rc/clk?jk=4c7d2999b20d909d&fccid=a9f8fafacaf24696&vjs=3
-no	NaN	NANOTRONICS IMAGING INC	Frontend UX/UI Developer, nControl	Brooklyn, NY 11205	https://www.indeed.com/rc/clk?jk=7b8116bc8a5e2a1c&fccid=f73d2aae691db745&vjs=3
-no	5	OpenVault	Software Engineer (Frontend/UI)	Jersey City, NJ	https://www.indeed.com/rc/clk?jk=c8d2869e6448af98&fccid=017e5cc17f115a23&vjs=3
-no	NaN	NANOTRONICS IMAGING INC	Software Developer, Python/SQL, nControl	Brooklyn, NY 11205	https://www.indeed.com/rc/clk?jk=58220c2bef2cfacb&fccid=f73d2aae691db745&vjs=3
-no	5	Guidepoint	Software Engineer (Front-end)	New York, NY 10017•Remote	https://www.indeed.com/rc/clk?jk=d3dc0d30f6e8df90&fccid=3ec60d46cb3714f9&vjs=3
-yes	0	Intone Networks	Front End Dev with React.js and AEM experience	New York, NY 10001	https://www.indeed.com/rc/clk?jk=37c1b8cd586aec19&fccid=3ed0572c448b2368&vjs=3
-no	NaN	Tap	Software Engineer (US)	New York, NY 10007	https://www.indeed.com/rc/clk?jk=b9812172c0a39b87&fccid=628c96672912d709&vjs=3
-no	4	Datadog	Software Engineer - Database Integrations	New York, NY	https://www.indeed.com/rc/clk?jk=8b462577d0762237&fccid=448951d0ddf03e0c&vjs=3
-no	NaN	TransPerfect	Software Engineer Front End	New York, NY	https://www.indeed.com/rc/clk?jk=ba25fc6b90830fba&fccid=9768fccc43ee5899&vjs=3
-no	NaN	Tetra	Software Development Engineer	New York, NY 10121•Remote	https://www.indeed.com/rc/clk?jk=7d37fc80963b7886&fccid=86fe39f623b5c805&vjs=3
-yes	0	Kovsky Logix	Software Engineer/Computer Programmer	New York, NY	https://www.indeed.com/rc/clk?jk=c98a7ce584bb571b&fccid=6d541bfc6906fa66&vjs=3
-no	NaN	CVS Health	Software Engineer	Florham Park, NJ	https://www.indeed.com/rc/clk?jk=da86fc8f436e15a5&fccid=be3b11aa573faee7&vjs=3
-no	NaN	Catalyst	UX/UI Engineer (Consultant 9 months)	New York, NY•Remote	https://www.indeed.com/rc/clk?jk=0a5c3a02f0ae53b2&fccid=e03ebb7daa603a9e&vjs=3
-no	3	Millennium Management LLC	Software Engineer - Equities Technology PM Tools	New York, NY 10022	https://www.indeed.com/rc/clk?jk=c822090d4313b396&fccid=548e0909717a6ddf&vjs=3
-no	5	Ultra Evolve	Crypto Web3 UI Front End Engineer (Hybrid)	New York, NY 10048	https://www.indeed.com/company/Ultra-Evolve/jobs/Front-End-Developer-32e0605b4ce921d3?fccid=012ce60ddaba9fcd&vjs=3
-yes	0	Apple	Software Developer in Test - Ad Platforms	New York, NY	https://www.indeed.com/rc/clk?jk=70224bc4dc257be4&fccid=c1099851e9794854&vjs=3
-no	NaN	Spring Health	Software Engineer	New York, NY•Remote	https://www.indeed.com/rc/clk?jk=e26eac0cec85f045&fccid=675ee465d3812bad&vjs=3
-no	2	CarbonChain	Software Engineer [NYC]	New York, NY•Hybrid remote	https://www.indeed.com/rc/clk?jk=5f68995b263dbabc&fccid=cc9736530099397d&vjs=3
-no	3	HarveyNash	Front Office Software Engineer	Newark, NJ 07102	https://www.indeed.com/company/harveynash/jobs/Software-Engineer-dcbe2cb0943308b2?fccid=a8640aec2d0ea3c1&vjs=3
-yes	0	Maersk	Software Engineer	Florham Park, NJ	https://www.indeed.com/rc/clk?jk=05e46f28fad031a6&fccid=14e7391c55beeb80&vjs=3
-yes	0	Slalom Consulting	Principal – Software Development	New York, NY	https://www.indeed.com/rc/clk?jk=af7bbbcebe2a680e&fccid=a321096b9f1b3c50&vjs=3
-no	1	SION Stratergy Soft	Software Developer	Metuchen, NJ 08840•Remote	https://www.indeed.com/rc/clk?jk=6282199ee8020cfa&fccid=df6b647ad3f6d7d1&vjs=3
-no	NaN	BDIPlus	UI Developer	New York, NY	https://www.indeed.com/company/BDIPlus/jobs/Front-End-Developer-04c76b16fff405cb?fccid=ef6cc92f6d5fec02&vjs=3
-no	2	Princeton IT Services	Ui software developer	Englewood, NJ 07631	https://www.indeed.com/company/Princeton-IT-Services,-Inc/jobs/Front-End-Developer-5135bd0c3d9acc72?fccid=135cbb3d4e531dbb&vjs=3
-no	NaN	Berkeley Research Group, LLC	Front-End Software Engineer	New York, NY 10019	https://www.indeed.com/rc/clk?jk=94a3b8ada0dcaa26&fccid=5438980566e5f414&vjs=3
-no	3	Traba	Software Engineer	New York, NY	https://www.indeed.com/rc/clk?jk=9665b7d604a98cbe&fccid=08c0f78dbb0e3e17&vjs=3
-no	NaN	Parker	Software Engineer - Frontend	New York, NY	https://www.indeed.com/rc/clk?jk=7f4deba96596663c&fccid=84ea70376c3fa65e&vjs=3
-yes	0	Sumitomo Mitsui Banking Corporation	Software Engineer - Capital Markets	New York, NY 11205	https://www.indeed.com/rc/clk?jk=09067647262c8e58&fccid=e6ac082831bf0db9&vjs=3
-no	3	Peloton	Software Engineer-Frontend (E-Commerce)	New York, NY 10011•Hybrid remote	https://www.indeed.com/rc/clk?jk=27010239fd4a9807&fccid=8899ecbdba2d0a5e&vjs=3
-no	4	null	VP, Software Engineering	New York, NY•Hybrid remote	https://www.indeed.com/rc/clk?jk=d1009b26b6657710&fccid=dd616958bd9ddc12&vjs=3
-no	NaN	Fiserv, Inc.	User Interface (UI) Software Engineer, Advisor	Berkeley Heights, NJ•Remote	https://www.indeed.com/rc/clk?jk=4c728dfd756a360c&fccid=1ea0475711674f3b&vjs=3
-yes	0	mioym asset management	Software Developer (Part Time)	Bronx, NY 10455	https://www.indeed.com/company/mioym-asset-management/jobs/Software-Engineer-be3bfd2d788cbe53?fccid=5189e5cdb4c6b4f0&vjs=3
-no	5	HR Acuity LLC	Software Engineer	Florham Park, NJ 07932	https://www.indeed.com/rc/clk?jk=c601d02ea797b77a&fccid=59098be70d82f1ef&vjs=3
-yes	0	Center for Advanced Imaging Innovation and Research (CAI2R)	Software Engineer – Medical Imaging Platforms	New York, NY 10016	https://www.indeed.com/rc/clk?jk=ddfb0083264e1557&fccid=ed6035e76045d88c&vjs=3
-yes	0	Comic Relief US	UI Designer Developer	New York, NY	https://www.indeed.com/rc/clk?jk=19c95ea71a0f0a7b&fccid=294149e5f38fefff&vjs=3
-yes	0	Eniac Systems	Software Developer/Engineer (Python)	Edison, NJ 08817	https://www.indeed.com/rc/clk?jk=5b60e8ae6dda20c1&fccid=a0ed8ac211fb22c1&vjs=3
-yes	0	BCG Digital Ventures	Looking for Software Developer	New York, NY	https://www.indeed.com/rc/clk?jk=a9a541a352b7d817&fccid=1f69c9c641b4c973&vjs=3
-yes	0	Econtenti Inc	Software Engineer	Edison, NJ 08817	https://www.indeed.com/rc/clk?jk=511b177b7fb5f5f2&fccid=aebeb817f6c0dd17&vjs=3
-no	3	Verneek	Front-end Software Engineer	New York, NY	https://www.indeed.com/rc/clk?jk=e36d82497e6a1dee&fccid=6a11e759331766de&vjs=3
-no	4	Candid Health	Software Engineer, Front End	New York, NY	https://www.indeed.com/rc/clk?jk=1b97eff1b80d24f2&fccid=b4530794deea57ac&vjs=3
-no	1	PTC THERAPEUTICS	Contract, AI & Software Automation Engineer	South Plainfield, NJ 07080•Hybrid remote	https://www.indeed.com/rc/clk?jk=b52a5662cbf5f7a0&fccid=01b550b2fa839455&vjs=3
-no	7	CEDENT	Software Engineer( Front End Developer)	Jersey City, NJ	https://www.indeed.com/rc/clk?jk=34528acb5a6bee76&fccid=2ecf4575019bf07a&vjs=3
-no	NaN	LoginextSolutions	Software Engineer - Client Success	Jersey City, NJ	https://www.indeed.com/rc/clk?jk=92c6d2f7d51663a4&fccid=20f14658bb3d6dd5&vjs=3
-no	5	CAPCO	Contract UX/UI Designer	New York, NY	https://www.indeed.com/rc/clk?jk=dfab737837244627&fccid=c2a63affe8751868&vjs=3
-no	NaN	Recruiting From Scratch	Director of Software Engineering	New York, NY 10016	https://www.indeed.com/rc/clk?jk=5725fc6f2b97b42a&fccid=09e02654c2f26bbd&vjs=3
-no	1	Jacobs Levy Equity Management	C# Software Engineer	Florham Park, NJ 07932	https://www.indeed.com/rc/clk?jk=a2d796548af542e8&fccid=e8371f8c98d6ebd4&vjs=3
-yes	0	Roy Talman & Associates	Equity Platform Development, Web Developer	New York, NY 10153	https://www.indeed.com/rc/clk?jk=14c733bc4aca1107&fccid=169c58e59aaf64e0&vjs=3
-no	3	Bloomberg	UI Developer - Cloud Native Compute Infrastructure (Contractor)	New York, NY 10261	https://www.indeed.com/rc/clk?jk=44a368cb9794ebe5&fccid=f770da67b3b51c62&vjs=3
-no	3	Newell Brands	Software Engineer (Integrations)	Hoboken, NJ 07030	https://www.indeed.com/rc/clk?jk=30152ab6831cb26a&fccid=959fbc7b7aeb5d18&vjs=3
-no	8	Nb Ventures Inc	Principal Software Engineer - MEAN Stack	Clark, NJ 07066	https://www.indeed.com/rc/clk?jk=7cb1c54a5f5a9762&fccid=8619078a12d2dd57&vjs=3
-no	NaN	Fusion Health	Software Engineer	Woodbridge, NJ 07095	https://www.indeed.com/rc/clk?jk=fff1f3e969fcd87e&fccid=2d3ef9518abf9299&vjs=3
-no	4	Lord Abbett.com	Software Engineer - SMA	Jersey City, NJ 07302	https://www.indeed.com/rc/clk?jk=e7cb5835845172df&fccid=6132da841766fa20&vjs=3
-no	NaN	Perpetual	React Native Software Engineer	New York, NY 10001	https://www.indeed.com/rc/clk?jk=80e2544c169639a0&fccid=475929d8de269875&vjs=3
-no	5	Power Home Remodeling	Software Developer Release Engineer	Bronx, NY 10456	https://www.indeed.com/rc/clk?jk=b70142d3aef1c93b&fccid=4f3a9bc762923afa&vjs=3
+yes	0	Hive	Frontend Engineer	San Francisco, CA	https://www.indeed.com/company/Hive/jobs/Front-End-Developer-273cc18c61c931e8?fccid=5261110462a433d3&vjs=3
+no	1	Rephrase.ai	Frontend Engineer	San Francisco, CA	https://www.indeed.com/rc/clk?jk=93e2baa67b73df54&fccid=be441848e77aad46&vjs=3
+no	3	Mirror	Frontend Engineer	San Francisco, CA•Remote	https://www.indeed.com/rc/clk?jk=7b10b58e725e28b3&fccid=5bb8147d0486194c&vjs=3
+yes	0	Arize AI	Frontend Engineer	Berkeley, CA•Remote	https://www.indeed.com/rc/clk?jk=86af82b726a8ac9d&fccid=b8a937b9d074f2ee&vjs=3
+no	2	Demandbase	Software Engineer (Frontend)	San Francisco, CA 94107•Remote	https://www.indeed.com/rc/clk?jk=72884f90e11c652d&fccid=f61b9c6e300e3c76&vjs=3
+no	NaN	Braintrust	Frontend Engineer	San Francisco, CA 94133•Remote	https://www.indeed.com/rc/clk?jk=fc07799ad2f0b6f5&fccid=cffd065f9ff9e672&vjs=3
+no	5	Mix	Front End Engineer	San Francisco, CA•Remote	https://www.indeed.com/rc/clk?jk=08d743c0a6edcaee&fccid=235888d431edc92d&vjs=3
+yes	0	Docker	Front End Engineer	San Francisco, CA	https://www.indeed.com/rc/clk?jk=b1b6fe2d4b485731&fccid=1cbe7d59a6dc275d&vjs=3
+no	NaN	Brilliant	Product Engineer (Frontend)	San Francisco, CA•Remote	https://www.indeed.com/rc/clk?jk=2b305cd0034cb30a&fccid=502eac2d27eccf69&vjs=3
+no	6	Retool	Frontend Engineer	San Francisco, CA	https://www.indeed.com/rc/clk?jk=f0d36ed88c2e7012&fccid=d84f54f1c7f8f653&vjs=3
+yes	0	Lumafield	Frontend Software Engineer	San Francisco, CA•Hybrid remote	https://www.indeed.com/rc/clk?jk=e311475ca6fe65e9&fccid=91f51e74ee735742&vjs=3
+no	5	null	Front End Engineer	San Francisco, CA	https://www.indeed.com/rc/clk?jk=319f2860b95dc849&fccid=dd616958bd9ddc12&vjs=3
+no	NaN	Cisco Meraki	Principal Engineer, FrontEnd	San Francisco, CA•Remote	https://www.indeed.com/rc/clk?jk=dca70b56777b20e5&fccid=225e8490f1c5921b&vjs=3
+no	4	Candid Health	Software Engineer, Front End	San Francisco, CA	https://www.indeed.com/rc/clk?jk=b90376ca03d3daae&fccid=b4530794deea57ac&vjs=3
+no	NaN	Recruiting From Scratch	Frontend Engineer	San Francisco, CA 94109	https://www.indeed.com/rc/clk?jk=d531d7d9b0c8733f&fccid=09e02654c2f26bbd&vjs=3
+yes	0	Nelson Interactive	Front End Engineer-Contract- Onsite Foster City, Ca	Foster City, CA	https://www.indeed.com/rc/clk?jk=367fb9fef081c028&fccid=5f1eb00e2f9c9687&vjs=3
+no	NaN	IXL Learning	Front-End Software Engineer, IXL Product	San Mateo, CA 94404•Hybrid remote	https://www.indeed.com/rc/clk?jk=702e4e3442af4547&fccid=94036c5004c09ecc&vjs=3
+no	3	Apixio	Front End Engineer (Hybrid)	San Mateo, CA•Hybrid remote	https://www.indeed.com/rc/clk?jk=8ac40ab51b371980&fccid=d709010bf50f2482&vjs=3
+no	NaN	Swish Analytics	Front End Engineer	San Francisco, CA 94133•Remote	https://www.indeed.com/rc/clk?jk=a2734b26fedd92a8&fccid=e632785cd75868e9&vjs=3
+yes	0	Brave	Search Engineer - Front End	San Francisco, CA•Remote	https://www.indeed.com/rc/clk?jk=f1d463d3bb96b091&fccid=9e961d35e88738f2&vjs=3
+no	NaN	Coda	Software Engineer, Frontend	San Francisco, CA 94103•Remote	https://www.indeed.com/rc/clk?jk=8282b3f12540395c&fccid=b2512032d557aa8b&vjs=3
+no	1	DocuSign	Software Engineer - Frontend	San Francisco, CA 94105	https://www.indeed.com/rc/clk?jk=083bc6bd2c68578b&fccid=9dd30dd046d9ac7a&vjs=3
+no	9	Five9	Front-End Engineer (Contract)	San Francisco, CA•Remote	https://www.indeed.com/rc/clk?jk=e2cb5c9015304611&fccid=401ad1536026b66d&vjs=3
+yes	0	Intone Networks	Front End Engineer	Foster City, CA 94404	https://www.indeed.com/company/Intone-Networks/jobs/Front-End-Developer-dd36ad02be4805b8?fccid=3ed0572c448b2368&vjs=3
+no	NaN	SS&C	Front End Software Engineer	San Francisco, CA•Hybrid remote	https://www.indeed.com/rc/clk?jk=019ee6ed518c53ff&fccid=e02be59e87cd229c&vjs=3
+no	5	Betteromics	Front-End Engineer	Redwood City, CA	https://www.indeed.com/rc/clk?jk=87c2c0d1649f818e&fccid=688da0708efbe570&vjs=3
+no	NaN	Observe, Inc.	Software Engineer, Frontend Data Visualization	San Mateo, CA	https://www.indeed.com/rc/clk?jk=f17dfaee4eb64517&fccid=8838306237f1a690&vjs=3
+yes	0	SSI	Front-End Developer (Mandarin MUST - Will Train - Nationwide)	San Francisco, CA	https://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0Ca9Zylhlp5Hzddgko6x-lu29AnTXXwH4Zn0xTJhRxo90ABjVrNBqtHOfzCPGfqhKxOMc9r41tnR8CxyfI3qqujOc2iVbAvqJ-NsZgeFF0zN6Yst47Ks3Uu2fDtxtxYlB_ZeyWIbwzbP0_CpCZ545C6jXMkd7RtIcenQeyVoTxpO_NQWErgdL2wGVfpL78jd4onWTw99OGd7kss5MCn1RDFiEZVpZqqSfkPXfkaZHOemRerf75YAwfNEeMV1FPpxlaJSZz2sQbGPKqdrQuSYfOQ_UMyqfbdytDJvglQuMwiK9TIUSBpNUoCTBCucxSrlW580XsuiENJx_cuLOpF7g54hyuPgMxyGGdw4kwKygdKun8nklRfOWDpZriGPhv1R_9qBPWEQlXRGcd9miDE2WGlgYAfM1GLOqzB-l4uDx_yxVh20g2LdtTj7U86VzDZoz0Y5lO5W2X6tGTxUju_fM1a_0sqzXso8Gik2NtFV9MYkMVSkMJv0hIMlJAdfe8ivPPw13MSIuBe8FqOh_wzZc5Qas6BanKCD1-tNQFhT9Qvy7l97JTCCC1s7mmbkKw5G9NeJznqKfFl17Z1h3rlOHXVq6XVXJLHUbQ=&xkcb=SoC5-_M3Qxxk-ayCXZ0LbzkdCdPP&p=0&fvj=1&vjs=3&tk=1gvhsqouth0ni800&jsa=1213&oc=1&sal=1
+no	2	Style Group	Software Developer - Web/UI	Berkeley, CA	https://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0AoilK__O7KFieKRQ86ouX6k6w_91GsBYiYasFNf3CTQPG3OnVnyGlewNj1s0fBXtnwnSre1zGqml3bcb23foBGV0L8CHHYgrP7bql44m-bRqHhkd0rfXKJHl1Z1LkEc4oVMbZHI0sORuw-eCWBv-jZNbDTtT5R6JONzyXymH_0SX0rfFGlekJR4UNPGtfAKY4jvUckSU-ein3vJrNjm2d0-pU2RtVNZpIKWMYm9ndUWxMlIRXMSUHtqwaTk00F-Eqiuqjp5TenKCkdriwpD5i7nlHxmMfv0-a8qRDi8cjsavWJAhHnBN7i_J4SRu8FUfXaMxy-Lv4wxF_6ie2jWdqqP80GN0TC6aWjwiWV4AWsRi-Yl3z7U7DW6aag4LSbbQD3nZ-0PQtJu0yXhYVGdLvXgDZrZvxPrmeJHWnnrj8aHZnQbhOqiOBISAGY4xP1IcJGtIFdzHibv2xVwOQeXm9TawH9vm1KvAf8JgOxVShtHSyAnzUOypWT6cTpMMsWmNOrbE16U2PYENakXPxFSUfrWKcyjgtmlNb2eOHlu-REOFaBa_OKghdQ&xkcb=SoAN-_M3Qxxk-ayCXZ0KbzkdCdPP&p=1&fvj=1&vjs=3&tk=1gvhsqouth0ni800&jsa=1213&oc=1&sal=1
+no	2	Verkada	Front End Engineer, Internal Systems	San Mateo, CA 94401	https://www.indeed.com/rc/clk?jk=187191911f7812b5&fccid=17b2ec97e4ece7cf&vjs=3
+no	5	null	Frontend Engineer (UI)	San Francisco Bay Area, CA	https://www.indeed.com/rc/clk?jk=271716eaf6b95e24&fccid=dd616958bd9ddc12&vjs=3
+no	NaN	Autodesk	Principal Frontend Engineer (React, Node, Javascript)	San Francisco, CA	https://www.indeed.com/rc/clk?jk=86bb2e0626fbb3f9&fccid=7136762d065a5ad7&vjs=3
+yes	0	Hinge Health	Principal Software Engineer - Frontend Mobile	San Francisco, CA•Remote	https://www.indeed.com/rc/clk?jk=3b92b92a5be8da3c&fccid=ec798be206d0335c&vjs=3
+yes	0	Finrise	Software Engineer (Front-end)	Burlingame, CA	https://www.indeed.com/rc/clk?jk=f450ae2d09eec508&fccid=8e766de34b635e9e&vjs=3
+no	NaN	Philo	Frontend Web TV Developer (Smart TVs)	San Francisco, CA 94103•Remote	https://www.indeed.com/rc/clk?jk=b04cf0bad1003c28&fccid=f2c9b2ce0e08df2b&vjs=3
+no	NaN	Notion	Web Developer - Marketing	San Francisco, CA 94110	https://www.indeed.com/rc/clk?jk=066065870ad1c734&fccid=7095ffd299c81ef3&vjs=3
+no	5	Online Technical Services	Tableau Developer - Front End	Hayward, CA	https://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0CO3lo8tTSczNz5vS4BPhUQq5cXCmywFqjKhWVhQ5Cs0rpojEv2EMPlRio45zKQYrroUTJeC-l5EeKY8EySebVU6jYvv9gS4hGpanHhnNe7Noot1SeIcD5-BOppweIbicxw3KJcWwg7RVHlM_pV6D5aeXlw9hLBNuknz21ls4qtlJsXCXSkGYhQnJatfJdI3p5L_l4X8_9G1AmfF0lnVPk1SN4ZjnH-x30-43CjgqB6pIAK8aduNIDjXlTqlTUlN7Bz9EpzZQ-lMdRPldFWP3g-znS6N-DMRVAmdAwBbaCrPorat9ca0bctkts3mvlJrXQuOAu6IsQeoU-pqKKAMwrXO6RspdVuUI11CptqNxos_7UloDHsBmGMYeRmWpBml2uGAD8blngV8c5qwxXSPoFC5C67iGvfH5kxc9-_4WAH57lJf0-BIEsssOEHJzqq4NhojFbcUZjAv8WVOGUMMbtFXQ6iubc4qQyrYQCXX51T5UVN_OVYvIzc37tvqpaQCKPG_EEG_Ah3vGvyVSa0RaAo08MM-iTM-ttP-t0Jhcl3TGUfGRuD2lAOFu6iQfopGAw=&xkcb=SoDw-_M3QxxhQHWnnJ0MbzkdCdPP&p=7&fvj=1&vjs=3&tk=1gvhsrknj2mna000&jsa=9651&oc=1&sal=1
+no	5	Short Story	Software Engineer, Front End	San Francisco, CA	https://www.indeed.com/rc/clk?jk=6c4502610cfb274d&fccid=72961a3147765687&vjs=3
+no	2	TomCloud	Software Developer (Front-End/Web)	San Francisco, CA	https://www.indeed.com/company/TomCloud/jobs/Front-End-Developer-1f5bf006997757d9?fccid=b927f635cc292e2e&vjs=3
+yes	0	Watershed	Web developer, marketing	San Francisco, CA•Remote	https://www.indeed.com/rc/clk?jk=26180d2f1dd06739&fccid=718464ab7932c10b&vjs=3
+no	NaN	Forward	Software Engineer, Front End	San Francisco, CA	https://www.indeed.com/rc/clk?jk=47010f7977c20749&fccid=d36c2ee4d1a0e85b&vjs=3
+no	3	Roblox	Principal Frontend Engineer, User Libraries & Frameworks	San Mateo, CA 94401	https://www.indeed.com/rc/clk?jk=ae2557ada62c85a0&fccid=04ef150429d33336&vjs=3
+no	3	Wallero	Front-End Software Engineer	Menlo Park, CA 94025	https://www.indeed.com/company/Wallero/jobs/Front-End-Developer-d2e4cb9c984a1240?fccid=d66ca290788c6ae3&vjs=3
+no	NaN	SmartShoot	Front-end Developer	San Francisco, CA	https://www.indeed.com/rc/clk?jk=34df7e2a82ce6fb3&fccid=6c200a12f3d7a81c&vjs=3
+no	NaN	Amazon.com Services LLC	Front End Engineer, Amazon Music - Art19	San Francisco, CA	https://www.indeed.com/rc/clk?jk=f4d2627af4af9aee&fccid=fe2d21eef233e94a&vjs=3
+no	5	Sunixa Solutions	React JS Developer	San Bruno, CA 94066	https://www.indeed.com/company/Sunixa-Solutions/jobs/Developer-5409a15b9ae2a353?fccid=b6ed810623a1c478&vjs=3
+no	8	Authentic8	Web Developer – Web Extensions	San Francisco, CA•Hybrid remote	https://www.indeed.com/rc/clk?jk=5db3a11689302b44&fccid=c6b89555ff30e032&vjs=3
+yes	0	Padlet	Software Engineer – Frontend	San Francisco, CA	https://www.indeed.com/rc/clk?jk=be3eaa4779910108&fccid=e097619f206e4fc3&vjs=3
+no	NaN	Alloy	UX Design Engineer (Designer/Developer)	San Francisco, CA•Remote	https://www.indeed.com/rc/clk?jk=a9b5e5b3ef1f8ad1&fccid=17deafb845ac1078&vjs=3
+yes	0	Outpatient, Inc	React Native App Engineer	San Francisco, CA 94111	https://www.indeed.com/rc/clk?jk=190df14609b0b9d8&fccid=bfe58ea8eaff5adb&vjs=3
+yes	0	FunnelEnvy	UI/UX Web Designer & Developer	Millbrae, CA 94030	https://www.indeed.com/rc/clk?jk=426bf45eba2657cd&fccid=b2f280610e37d354&vjs=3

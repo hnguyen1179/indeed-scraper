@@ -8,9 +8,9 @@ const JOB_LISTINGS_URLS = {
 };
 
 // Change this to change locations
-const currentURL = JOB_LISTINGS_URLS.NYC
+const currentURL = JOB_LISTINGS_URLS.SF;
 
-const POSTING_CLICK_DELAY = Math.floor(Math.random() * 1500) + 700;
+const POSTING_CLICK_DELAY = Math.floor(Math.random() * 1500) + 800;
 const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
 
 // Main function
@@ -23,7 +23,7 @@ const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
   await page.setDefaultNavigationTimeout(0);
 
   await Promise.all([
-    page.setViewport({ width: 1440, height: 1000 }),
+    page.setViewport({ width: 1660, height: 1440 }),
     page.goto(currentURL),
   ]);
 
