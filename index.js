@@ -2,8 +2,10 @@ require("dotenv").config({ path: __dirname + "/.env" });
 const fs = require("fs");
 const puppeteer = require("puppeteer");
 
-const JOB_LISTINGS_URL =
-  "https://www.indeed.com/jobs?q=frontend+engineer&l=New+York%2C+NY&from=searchOnHP&vjk=3471e5d39897e1d9";
+const JOB_LISTINGS_URLS = {
+  NYC: "https://www.indeed.com/jobs?q=frontend+engineer&l=New+York%2C+NY&sc=0kf%3Aocc%28ZW3TH%29%3B&vjk=06a4fe9da364ef17",
+  SF: "https://www.indeed.com/jobs?q=frontend+engineer&l=San+Francisco%2C+CA&sc=0kf%3Aocc%28ZW3TH%29%3B&vjk=fc07799ad2f0b6f5",
+};
 
 const POSTING_CLICK_DELAY = Math.floor(Math.random() * 1500) + 700;
 const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
@@ -19,7 +21,7 @@ const NEXT_PAGE_CLICK_DELAY = Math.floor(Math.random() * 1000) + 500;
 
   await Promise.all([
     page.setViewport({ width: 1440, height: 1000 }),
-    page.goto(JOB_LISTINGS_URL),
+    page.goto(JOB_LISTINGS_URLS.NYC),
   ]);
 
   // Scrape
@@ -111,7 +113,9 @@ function scrollToBottom() {
 function titleFilter(title = "") {
   console.log("In titleFilter");
   // Includes
-  const test1 = /front|ui|web developer|software|engineer|developer/i.test(title);
+  const test1 = /front|ui|web developer|software|engineer|developer/i.test(
+    title
+  );
   // Doesn't Include
   const test2 =
     !/senior|founding|head|staff|sr|lead|mid|angular|vue|iii|years|java[^s]|full/i.test(
